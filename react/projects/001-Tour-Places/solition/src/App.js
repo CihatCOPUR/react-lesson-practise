@@ -1,10 +1,12 @@
 
 import "./App.scss";
+import Navbar from "./components/Navbar/Navbar";
 
 const App =()=>{
   return (
     <div className="App">
-     <h1>REACT</h1>
+      <Navbar/>
+     
     </div>
   )
 }
